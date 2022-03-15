@@ -45,7 +45,7 @@ public class ExactChange {
       }
       // This block checks for nickels.
       if (pennies >= 5) {
-         quarters = pennies / 5;
+         nickels = pennies / 5;
          pennies = pennies % 5;
       }
       
